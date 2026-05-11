@@ -24,5 +24,10 @@ firstName = "Mehjabin"
 lastName = "Johra"
 print("Myself" +' '+firstName +' '+ lastName)
 
-
+# boolean type data
+x = 10
+y = 5
+z = x > y
+print(z)
+print(type(z))
 
