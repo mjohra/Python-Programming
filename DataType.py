@@ -50,4 +50,28 @@ print(b1[1])
 b1[1]=100
 print(b1[1])
 
+# None type data
+x = None
+print(x)
+print(type(x))
+
+#list type data
+
+li =['Mehjabin','Johra','Aazan','Ayesha']
+print(li)
+print(type(li))
+li[0] = 'Tusher' # mutable
+print(li)
+
+#tuple type data
+tup = (1,2,3)
+print(tup)
+print(type(tup))
+
+#range type data
+r = range(10);
+print(r)
+print(type(r))
+for i in r:
+    print(i)
 
